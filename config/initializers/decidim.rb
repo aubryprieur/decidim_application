@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 Decidim.configure do |config|
-  config.application_name = "My Application Name"
-  config.mailer_sender = "change-me@domain.org"
+  config.application_name = "Plateforme de participation COPAS"
+  config.mailer_sender = "contact@copas.coop"
 
   # Change these lines to set your preferred locales
-  config.default_locale = :en
-  config.available_locales = [:en, :ca, :es]
+  config.default_locale = :fr
+  config.available_locales = [:fr, :en]
 
   # Geocoder configuration
   # config.geocoder = {

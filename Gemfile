@@ -4,25 +4,26 @@ source "https://rubygems.org"
 
 ruby RUBY_VERSION
 
-gem "decidim", "0.16.0"
-# gem "decidim-consultations", "0.16.0"
-# gem "decidim-initiatives", "0.16.0"
+gem "decidim", "0.20.0"
+gem "decidim-consultations", "0.20.0"
+gem "decidim-initiatives", "0.20.0"
 
-gem "bootsnap", "~> 1.3"
+gem "bootsnap", "~> 1.4"
 
-gem "puma", "~> 3.0"
+gem "puma", "~> 3.12.2"
 gem "uglifier", "~> 4.1"
 
 gem "faker", "~> 1.9"
 gem "fog-aws"
-gem "decidim-term_customizer"
-gem "delayed_job_active_record"
-
+#gem "decidim-term_customizer"
+# gem "delayed_job_active_record"
+gem 'wicked_pdf', '~> 1.1'
+gem 'wkhtmltopdf-binary', '~> 0.12.5.4'
 
 group :development, :test do
-  gem "byebug", "~> 10.0", platform: :mri
+  gem "byebug", "~> 11.0", platform: :mri
 
-  gem "decidim-dev", "0.16.0"
+  gem "decidim-dev", "0.20.0"
 end
 
 group :development do

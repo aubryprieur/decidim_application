@@ -16,7 +16,7 @@ gem "uglifier", "~> 4.1"
 gem "faker", "~> 1.9"
 gem "fog-aws"
 #gem "decidim-term_customizer"
-# gem "delayed_job_active_record"
+gem "delayed_job_active_record"
 gem 'wicked_pdf', '~> 1.1'
 gem 'wkhtmltopdf-binary', '~> 0.12.5.4'
 
